@@ -1,0 +1,34 @@
+.ball{
+
+    
+    left: 150px;
+    margin-left:-150px;
+    animation: rotaball 10s 0.9s infinite alternate;
+    
+}
+
+@keyframes rotaball{
+    0%{}
+    100%{
+       left:50%;
+       transform: translate(1000px);
+    }
+    
+}
+
+
+.ball2{
+    overflow: hidden;
+    animation: rotaball2 5s 1s infinite alternate;
+}
+
+@keyframes rotaball2{
+    0%{}
+    100%{
+        transform: translate(1000px);
+    }
+}
+
+
+
+    

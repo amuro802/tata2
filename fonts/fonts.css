@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSans-Thin'),
+        url('NotoSans-Thin.woff2') format('woff2'), 
+        url('NotoSans-Thin.woff') format('woff'),
+        url('NotoSans-Thin.ttf') format('truetype'),
+        url('NotoSans-Thin.otf') format('opentype'),
+        url('NotoSans-Thin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSans-Regular'),
+        url('NotoSans-Regular.woff2') format('woff2'), 
+        url('NotoSans-Regular.woff') format('woff'),
+        url('NotoSans-Regular.ttf') format('truetype'),
+        url('NotoSans-Regular.otf') format('opentype'),
+        url('NotoSans-Regular.eot') format('embedded-opentype');
+}
+
+
+
+@font-face {
+    font-family: 'NotoSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSans-Bold'),
+        url('NotoSans-Bold.woff2') format('woff2'), 
+        url('NotoSans-Bold.woff') format('woff'),
+        url('NotoSans-Bold.ttf') format('truetype'),
+        url('NotoSans-Bold.otf') format('opentype'),
+        url('NotoSans-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSans'),
+        url('NotoSans-Black.woff2') format('woff2'), 
+        url('NotoSans-Black.woff') format('woff'),
+        url('NotoSans-Black.ttf') format('truetype'),
+        url('NotoSans-Black.otf') format('opentype'),
+        url('NotoSans-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+/*나눔명조*/
+
+@font-face {
+    font-family: 'NanumMyeongjoB';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NanumMyeongjoB'),
+        url('NanumMyeongjoB.woff2') format('woff2'), 
+        url('NanumMyeongjoB.woff') format('woff'),
+        url('NanumMyeongjoB.ttf') format('truetype'),
+        url('NanumMyeongjoB.otf') format('opentype'),
+        url('NanumMyeongjoB.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'NanumMyeongjoEB';
+    font-style: normal;
+    font-weight: 500;
+    src: local('NanumMyeongjoEB'),
+        url('NanumMyeongjoEB.woff2') format('woff2'), 
+        url('NanumMyeongjoEB.woff') format('woff'),
+        url('NanumMyeongjoEB.ttf') format('truetype'),
+        url('NanumMyeongjoEB.otf') format('opentype'),
+        url('NanumMyeongjoEB.eot') format('embedded-opentype');
+}
+
+/*amerigarmnd bt*/
+@font-face {
+    font-family: 'American Garamond BT';
+    font-style: normal;
+    font-weight: 500;
+    src: local('American Garamond BT'),
+
+        url('American Garamond BT.ttf') format('truetype'),
+
+}

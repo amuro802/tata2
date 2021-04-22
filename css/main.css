@@ -1,0 +1,540 @@
+@charset "utf-8";
+
+#container{}
+
+.mainSlider{
+    background: url(../images/mainSlider.png)no-repeat center center;
+    background-size: cover;
+    height: 1000px;
+}
+.mainSlider h1{
+    text-align: center;
+    padding-top:250px;
+}
+.mainSlider h1 img{
+}
+/*메인컨01*/
+.mainCon01{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.mainCon01List{
+    display: inline-block;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+.mainCon01List li{
+}
+
+.mainCon01List .con01Logo{
+     position: absolute;
+    left: 20px;
+    
+
+}
+.mainCon01List .con01Logo a{}
+.mainCon01List .con01Logo a img{}
+
+.mainCon01List .con01Text{
+    }
+.mainCon01List .con01Text p{
+    font-family: "NotoSans";
+    font-size: 40px;
+    color: #3a53a4;
+    display: inline-block;
+
+}
+.mainCon01List .con01Text img{}
+.mainCon01List .con01BtnT{
+}
+.mainCon01List .con01BtnT p{
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: 1;
+    color: #fff;
+    font-size: 18px;
+    padding: 0 15px;
+    font-family: "NotoSans";
+    
+    
+}
+.mainCon01List .con01BtnT img{
+    position: relative;
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#mainVideo{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+/*메인컨02*/
+.mainCon02{
+    position: relative;
+    overflow: hidden;
+    height: 1300px;
+    
+    
+}
+.hake{}
+.hake1{
+    background:url(../images/hahakeke1.png)no-repeat center center;
+    height: 1264px;
+        background-size: cover;
+}
+.hake2{
+    position: absolute;
+    top:300px;
+    left: 360px;    
+}
+.hake2 img{
+
+    
+    
+    }
+.hake3{
+    position: absolute;
+    left:50%;
+    top:600px;
+    z-index: 4;
+}
+.hake4{
+    position: absolute;
+    left: 47%;
+    top:660px;
+    z-index: 5;
+}
+
+.mainCon02 p{
+    position: absolute;
+    top:800px;
+    left:50%;
+    font-family: "NotoSans";
+    font-weight: 500;
+    color: #3a53a4;
+    font-size: 20px;
+    z-index: 10;
+}
+.mainCon02 .find{
+    font-size: 40px;
+    font-weight: bold;
+    color: #3a53a4;
+}
+
+/*메인컨03*/
+.mainCon03{
+    margin-top: 200px;
+}
+.mainConT{
+    padding-bottom: 20px;
+}
+.mainConT img{display: inline-block;
+}
+.mainConT h2{display: inline-block;}
+.mainConT .moreBtn{
+    float: right;
+    
+   
+    
+}
+.mainCon03 ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainCon03 li{
+    float:left; 
+    text-align: center;
+    margin-right: 20px;
+    width: 224px;
+}
+.mainCon03 li:last-child{margin-right: 0;}
+.con03Img{}
+.con03Img img{
+    width: 100%;
+}
+.imgMom li:hover img{
+    transform: scale(1.1);
+    transition: transform 1s;}
+.con03Info{
+    padding-top: 15px;
+    }
+.con03Info h3{}
+.con03Info p{
+    
+}
+.con03Info span{}
+
+/*메인컨텐추04*/
+.mainCon04{
+    margin-top: 80px;
+    height: 1000px;
+    
+    background: #fff;
+    position: relative;
+    
+}
+.mainCon04 p{
+    
+   
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-size: 40px;
+    font-family: "NotoSans";
+    color: #3a53a4;
+    letter-spacing:7px;
+    text-align: center;
+    z-index: 1;
+}
+.mainCon04 span{
+    
+    font-weight: 500;
+}
+#container .mainCon04 .span3{
+    text-align: center;
+    font-size: 120px;
+}
+.mainCon04 .span1{
+    font-weight: bold;
+    letter-spacing: 13.9px;
+    font-size: 41px;
+}
+.span2{
+    
+    letter-spacing: 4px;
+}
+
+
+.con04leaf{
+    position: 
+}
+.leaf1{}
+.leaf1 img{
+    position: absolute;
+    top:100px;
+    right: 10px;
+}
+.leaf2{}
+.leaf2 img{
+    position: absolute;
+    top:400px;
+    right: 300px;
+}
+.leaf3{}
+.leaf3 img{
+    position: absolute;
+    bottom:150px;
+    left: 550px;
+}
+.leaf4{}
+.leaf4 img{
+        position: absolute;
+    top:150px;
+    left: 220px;
+}
+.leaf5{}
+.leaf5 img{
+        position: absolute;
+    bottom:50px;
+    left:30px;
+}
+/*maincon05*/
+
+.mainCon05{
+    position: relative;
+    margin-top: 200px;
+    
+}
+.mainCon05 ul{height: 2850px;}
+.mainCon05 .man1{
+    position: absolute;
+    top:10px;
+    left: 280px;
+}
+.mainCon05 .man2{
+    position: absolute;
+    right: 360px;
+    top:500px;
+}
+.mainCon05 .man3{
+    position: absolute;
+    left: 360px;
+    top:1200px;
+    z-index: 1;
+}
+.mainCon05 .man4{
+    position: absolute;
+    right: 0;
+    top:1500px;
+    
+}
+
+/*메인컨텐츠06*/
+.mainCon06{
+    background: #F9F9F9;
+    padding-bottom: 100px;
+    
+}
+.inner{
+    
+}
+.mainCon06 h2{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: "NotoSans";
+    font-weight: 400;
+    padding: 50px 0;
+}
+.con06List{}
+.con06List li{
+    padding-left: 30px;
+}
+.news1{
+    background: #fff;
+    
+}
+.news1 img{
+    
+    vertical-align: middle;
+     
+}
+.news1 .con06Info{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px 0;  
+    padding-left: 50px;
+}
+.news1 .con06Info p{
+    font-family: "NotoSans";
+}
+.news1 .con06Info h3{
+    padding: 10px 0;
+}
+
+.news2{
+    background: #fff;
+    margin: 10px 0;
+    position: relative;
+}
+.news2 a{vertical-align: middle;}
+.news2>img{
+    border: 1px solid black;
+    vertical-align: middle;
+}
+.news2 .con06Info{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px 0;  
+    padding-left: 50px;    
+}
+.news2 .con06Info p{
+    font-family: "NotoSans";
+}
+.news2 .con06Info h3{
+    padding: 10px 0;    
+}
+.xBtn{
+    position: absolute;
+    top:66px;
+    left:299px;
+}
+.xBtn img{}
+
+.news3{
+    background: #fff;
+    position: relative;
+}
+
+.news3 a{vertical-align: middle;}
+.news3>img{
+    border: 1px solid black;
+    vertical-align: middle;
+}
+.news3 .con06Info{
+    display: inline-block;
+    padding: 30px 0;
+    vertical-align: middle;
+    padding-left: 50px;    
+}
+.news3 .con06Info p{
+    font-family: "NotoSans";
+}
+.news3 .con06Info h3{
+    padding: 10px 0;    
+}
+.xBtn2{
+    position: absolute;
+    top:66px;
+    left:403px;
+}
+.xBtn2 img{}
+
+.moreView{
+    padding: 40px 0;
+    float: right;
+    
+    
+    z-index: 1;
+    
+}
+.moreView p{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: "NotoSans";
+    height: 40px;
+    line-height: 40px;
+}
+.moreView a{
+    
+    display: block;
+    
+}
+
+/*maincon07*/
+
+.lastLogo {text-align: center; margin-top: 0;}
+.chatBox {animation: motion 0.9s linear 0s  infinite alternate; margin-top: 0;}
+        
+@keyframes motion {
+	0% {margin-top: 20px;}
+	100% {margin-top: 0;}
+}
+
+.mainCon07{
+    position: relative;
+    height: 1000px;
+    overflow: hidden;
+}
+.mainCon07 img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    width: 450px;
+}
+.con07List{}
+.tokei1{
+    border: 1px solid #0072BC;
+    background: #0072BC;
+    
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+    text-indent: -9999px;
+    position: absolute;
+    left: -25px;
+    top:120px;
+}
+.tokei2{
+    border: 1px solid #0072BC;
+    background: #0072BC;
+    
+    border-radius: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 30px;
+    text-indent: -9999px;
+    position: absolute;
+    right: 325px;
+    top:100px;
+}
+.tokei3{
+     border: 1px solid #E3A9A9;
+    background: #E3A9A9;
+    
+    border-radius: 30px;
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+    right: 425px;
+    top:200px;
+}
+.tokei4{
+    border: 1px solid #E76DDA;
+    background: #E76DDA;
+    
+    border-radius: 30px;
+    padding: 20px;
+    width: 390px;
+    height: 50px;
+    text-indent: -9999px;
+    position: absolute;
+    left: 420px;
+    top:380px;
+    z-index: 1;
+}
+.tokei5{
+    border: 1px solid #63A4CE;
+    background: #63A4CE;
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+    text-indent: -9999px;
+    position: absolute;
+    right: -20px;
+    top:500px;
+}
+.tokei6{
+    border: 1px solid #C6DEEE;
+    background: #C6DEEE;
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+    text-indent: -9999px;
+    position: absolute;
+    right: -200px;
+    top:650px;
+}
+.tokei7{
+    border: 1px solid #F5E7E7;
+    background: #F5E7E7;
+    border-radius: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 60px;
+    text-indent: -9999px;
+    position: absolute;
+    left: -200px;
+    top:620px;
+    z-index: 1;
+}
+.tokei8{
+    border: 1px solid #D7DEF3;
+    background: #D7DEF3;
+    border-radius: 30px;
+    padding: 20px;
+    width: 800px;
+    height: 260px;
+    text-indent: -9999px;
+    position: absolute;
+    left: -20px;
+    top:470px;
+}
+.tokei9{
+    border: 1px solid #0072BC;
+    background: #0072BC;
+    border-radius: 30px;
+    padding: 20px;
+    width: 800px;
+    height: 80px;
+    text-indent: -9999px;
+    position: absolute;
+    left: 620px;
+    top: 770px;
+}
